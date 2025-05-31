@@ -3,16 +3,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const name = 'Bornkiss';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Next.js Blog Starter Template';
+export const siteDescription = 'A simple blog starter template using Next.js and Tailwind CSS.';
 
 export default function Layout({ children, home }) {
   return (
-    <div className="max-w-4xl mt-12 mb-24 mx-auto px-4 ">
+    <div className="max-w-2xl mt-12 mb-24 mx-auto px-4 ">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content={siteDescription}
         />
         <meta
           property="og:image"

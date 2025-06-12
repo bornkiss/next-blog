@@ -7,3 +7,5 @@ This template is based on [https://next-learn-starter.vercel.app](https://next-l
 Refactor styles using Tailwind CSS instead of module css.
 
 Support table style with [remark-gfm](https://github.com/remarkjs/remark-gfm).
+
+Make code block highlight with [Shiki](https://shiki.tmrs.site/packages/rehype).

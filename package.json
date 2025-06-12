@@ -13,16 +13,19 @@
     "react": "latest",
     "react-dom": "latest",
     "remark": "^15.0.1",
-    "remark-gfm": "^4.0.1",
-    "remark-html": "^16.0.1"
+    "remark-gfm": "^4.0.1"
   },
   "engines": {
     "node": ">=18"
   },
   "devDependencies": {
+    "@shikijs/rehype": "^3.6.0",
     "@tailwindcss/postcss": "^4.1.8",
     "@tailwindcss/typography": "^0.5.16",
     "postcss": "^8.5.4",
+    "rehype-stringify": "^10.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
     "tailwindcss": "^4.1.8"
   }
 }

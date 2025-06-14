@@ -19,7 +19,7 @@ export default function Layout({ children, home }) {
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
             siteTitle + ' by ' + name,
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fgithub.com%2F${name}.png`}
+          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F101384056`}
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />

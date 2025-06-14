@@ -31,30 +31,30 @@ export default function Layout({ children, home }) {
               priority
               src="/images/profile.jpg"
               className="rounded-full"
-              height={144}
-              width={144}
-              alt=""
+              height={80}
+              width={80}
+              alt={name}
             />
-            <h1 className="text-5xl font-extrabold my-4 tracking-tight">{name}</h1>
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold my-4 tracking-tight">{name}</h1>
           </>
         ) : (
-          <>
+          <div className="flex items-center justify-start w-full mb-4">
             <Link href="/">
               <Image
                 priority
                 src="/images/profile.jpg"
-                className="rounded-full"
-                height={108}
-                width={108}
-                alt=""
+                className="rounded-full size-10"
+                height={100}
+                width={100}
+                alt={name}
               />
             </Link>
-            <h2 className="text-3xl font-bold my-4">
+            <h2 className="text-lg font-bold my-4 ml-4">
               <Link href="/" className="text-inherit hover:underline">
                 {name}
               </Link>
             </h2>
-          </>
+          </div>
         )}
       </header>
       <main>{children}</main>
